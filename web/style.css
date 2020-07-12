@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Yellowtail&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #222;
+}
+
+/*********NAVBAR***********/
+
+.navbar{
+	position: absolute;
+	top: 75px;
+	left: 150px;
+	display: flex;
+	border-left: 5px solid skyblue;
+	padding-left: 20px;
+  	animation: left-in 0.5s ease-in forwards;
+  	animation-delay: 0s;
+  	
+}
+	
+.navbar li{
+	list-style: none;
+	display: inline-block;
+	padding: 15px;
+}
+.navbar a{
+	text-decoration: none;
+	font-size: 0.9em;
+	font-family: 'MuseoModerno', cursive;
+	text-transform: uppercase;
+  	font-weight: 700;
+  	color: #999;
+  	margin-right: 30px;
+}
+.navbar li a:hover,
+.navbar li a.active{
+	color: skyblue;
+}
+/**End Nav**/
+
+header:before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: skyblue;
+  clip-path: polygon(54% 3%, 100% 0, 100% 100%, 84% 100%);
+  
+}
+
+
+.home{
+	position: absolute;
+	top: 270px;
+	left: 12%;
+	animation: left-in 0.5s ease-in forwards;
+	animation-delay: 0.5s;
+  	opacity: 0;
+}
+.home .name{
+	color: #ffffff;
+	border-left: 5px solid skyblue;
+}
+.home .name span{
+	padding-bottom: 50px;
+	font-size: 55px;
+	font-family:  'Montserrat Subrayada', sans-serif;
+	margin-left: 15px;
+	color: lightgreen;
+}
+.name h1{
+	padding-bottom: 10px;
+	font-size: 50px;
+	font-family:'MuseoModerno', cursive;
+	margin-left: 15px;
+}
+.name p{
+	
+	font-size: 25px;
+	font-family: 'MuseoModerno', cursive;
+	margin-left: 15px;
+
+}
+
+.media{
+	padding: 50px;
+	
+}
+.media a{
+	padding: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+.media a:hover{
+	color: skyblue;
+	background-color: white;
+	border-radius: 10px;
+}
+/*========
+  ABOUT
+  ========*/
+.image{
+	position: absolute;
+	margin-left: 60%;
+	animation: left-in 0.5s ease-in forwards;
+	animation-delay: 1s;
+  	opacity: 0;
+}
+.image img{
+	max-width: 600px;
+  height: 658px;
+}
+
+.about {
+	font-size: 30px;
+	color: #ffffff;
+	position: absolute;
+	top: 200px;
+	left: 150px;
+	
+	animation: left-in 0.5s ease-in forwards;
+	animation-delay: 0.5s;
+  	opacity: 0;
+}
+.about h1{
+	padding-bottom: 40px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 10px;
+}
+.about p{
+	font-size: 25px;
+	margin-right: 50%;
+	line-height: 30px;
+	font-family: 'Yellowtail', ;
+	padding-bottom: 40px;
+	color: #ffff;
+
+}
+.about a{
+	text-decoration:none;
+	color: skyblue;
+}
+.about .fb{
+	font-size: 25px;
+	font-family: Agency FB;
+	border: 1px solid skyblue;
+	text-decoration:none;
+	color: #FFFFFF;
+	background-color: skyblue;
+	border-radius: 5px;
+	padding: 8px;
+}
+/*====
+	Skills
+	=====
+	*/
+
+.skill{
+	padding: 200px 100px 100px 100px;
+	
+}
+
+.skill h1{
+	font-size: 30px;
+	font-family: 'Bangers', cursive;
+	padding-bottom: 30px;
+	color: #ffff;
+	letter-spacing: 10px;
+}
+p{color:#ffffff; 
+   padding-bottom: 10px; 
+   padding-top: 20px;
+   font-size: 15px;
+   font-family: 'MuseoModerno', cursive;
+}
+
+.grow{
+	width: 50%;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.html{
+	width: 85%;
+	background-color: yellow;
+	text-align: right;
+	font-family: Arial;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.css{
+	width: 73%;
+	background-color: yellow;
+	text-align: right;
+	font-family: Arial;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+.javascript{
+	width: 65%;
+	background-color: yellow;
+	text-align: right;
+	font-family: Arial;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+
+}
+.python{
+	width: 60%;
+	background-color: yellow;
+	text-align: right;
+	font-family: Arial;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+/*//////////////////////FORM///////////////////////////////*/
+
+.feedbeck{
+	color: #ffffff;
+	padding: 230px 200px 100px 200px;
+	border:none;
+	
+}
+.ct{
+	
+	font-size: 40px;
+	font-family: 'Bangers', cursive;
+	padding-bottom: 40px;
+	color: #ffff;
+	letter-spacing: 10px; 
+}
+form{
+	
+}
+form input{
+	padding: 15px;
+	border-left: 5px solid skyblue;
+	border-top-right-radius: 15px;
+	border-bottom-left-radius: 15px; 
+}
+
+input:hover{
+         box-shadow: 0 8px 26px 0 rgba(200,200,200,0.1); 
+    }
+.btn:hover{
+	background-color: rgba(200,200,200,0.8);
+}
+
+
+
+@keyframes fade-in{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+@keyframes left-in{
+  0%{
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@media (max-width: 991px){
+	body{
+		width: 80%;
+	}
+  .menuicon{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    width: 30px;
+    height: 30px;
+    background: url(menu.png);
+    filter: invert(1);
+    background-size: 40px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 1000;
+  }
+  .menuicon.active{
+    background: url(close.png);
+    filter: invert(1);
+    background-size: 30px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    z-index: 1000;
+  }
+  .navbar{
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.95);
+    flex-direction: column;
+    z-index: 11;
+    border: none;
+    padding: 0px;
+  }
+  ul{
+  	padding:200px 180px;
+  }
+  
+  .navbar.active{
+    left: 0;
+  }
+  .navbar li{
+    margin: 5px 0;
+  }
+ 
+  header:before{
+    clip-path: polygon(0 0,100% 0, 100% 50%, 0 30%);
+  }
+  .image{
+	position: absolute;
+	margin-left: 20%;
+	margin-top: 10px;
+	animation: left-in 0.5s ease-in forwards;
+	animation-delay: 1s;
+  	opacity: 0;
+}
+.image img{
+	max-width: 200px;
+  	height: 300px;
+  	border: 5px solid black;
+  	border-radius: 20px;
+}
+
+  .home{
+	position: absolute;
+	top: 370px;
+	left: 12%;
+	animation: left-in 0.5s ease-in forwards;
+	animation-delay: 0.5s;
+  	opacity: 0;
+}
+.home .name{
+	color: #ffffff;
+	border-left: 5px solid skyblue;
+}
+.home .name span{
+	padding-bottom: 50px;
+	font-size: 50px;
+	font-family:  'Montserrat Subrayada', sans-serif;
+	margin-left: 15px;
+	color: lightgreen;
+}
+.name h1{
+	padding-bottom: 10px;
+	font-size: 40px;
+	font-family:'MuseoModerno', cursive;
+	margin-left: 15px;
+}
+.name p{
+	
+	font-size: 25px;
+	font-family: 'MuseoModerno', cursive;
+	margin-left: 15px;
+
+}
+
+.media{
+	padding: 40px;
+	
+}
+.media a{
+	padding: 15px;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+
+}
+.media a:hover{
+	color: skyblue;
+	background-color: white;
+	border-radius: 10px;
+}
+.about {
+	font-size: 30px;
+	color: #ffffff;
+	
+	padding-top: 200px;
+	left: 50px;
+	
+	animation: left-in 0.5s ease-in forwards;
+	animation-delay: 0.5s;
+  	opacity: 0;
+}
+.about h1{
+	padding-bottom: 40px;
+	font-family: 'Bangers', cursive;
+	letter-spacing: 10px;
+}
+.about p{
+	font-size: 25px;
+	
+	line-height: 30px;
+	font-family: 'Yellowtail', ;
+	padding-bottom: 40px;
+	color: #ffff;
+
+}
+.skill{
+	padding: 400px 100px 100px 100px;
+	margin-right: 20px;
+}
+
+.skill h1{
+	font-size: 40px;
+	font-family: 'Bangers', cursive;
+	padding-bottom: 30px;
+	color: #ffff;
+	letter-spacing: 10px;
+}
+.grow{
+	width: 200%;
+	background-color: #ddd;
+	border-radius: 5px;
+}
+.feedbeck{
+	color: #ffffff;
+	padding: 400px 100px 100px 50px;
+	border:none;
+	
+}
+.ct{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Bangers', cursive;
+	padding-bottom: 50px;
+	color: #ffff;
+	letter-spacing: 10px; 
+}
+}

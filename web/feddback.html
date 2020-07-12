@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback - Evan purification</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=MuseoModerno&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="LogoMakr_0pvL9g.png" type="image/x-icon"/>
+
+</head>
+<body>
+	<!---HEADER--------->
+	<header>
+		<div class="navbar" id="nav">
+			<ul>
+				<li><a href="file:///E:/html/protfolio/index.html#" >Home</a></li>
+				<li><a href="file:///E:/html/protfolio/About.html#">About</a></li>
+				<li><a href="file:///E:/html/protfolio/Skills.html">Skills</a></li>
+				<li><a href="file:///E:/html/protfolio/feddback.html" class="active">Feedbeck</a></li> 
+			</ul>
+		</div>
+		<div class="image">
+			<img src="DSC_00371-removebg-preview.png">
+		</div>
+		
+</header>
+<section class="feedbeck">
+	<h2 class="ct">Feedbeck</h2>
+
+<form action="mailto:someone@example.com" method="post" enctype="text/plain">
+	
+	<input type="text" name="name" placeholder="Name" size="25" required><br><br>
+	
+	<input type="email" name="mail" placeholder="E-mail" size="25" required><br><br>
+	
+	<input type="text" name="comment" size="45" placeholder="Message"  required=""><br><br>
+	<input type="submit" value="Send" class="btn">
+	
+</form>
+</section>
+<span class = 'menuicon' id ='toggle' onclick="menuToggle()"></span>
+  <script type="text/javascript"> 
+    function menuToggle() {
+      var nav = document.getElementById('nav');
+      nav.classList.toggle('active')
+      var toggle = document.getElementById('toggle');
+      toggle.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>
